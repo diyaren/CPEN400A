@@ -1,0 +1,126 @@
+body
+{
+    background-color:white;
+    width: 1000px;
+    margin: auto;
+}
+#header
+{
+    display: inline-table;
+}
+#logo
+{
+    width: 30%;
+    height: 300px;
+}
+#banner
+{
+    width:70%;
+    height:300px
+
+}
+
+#content {
+    /*float: left;*/
+}
+
+#content ul{
+    float: left;
+}
+
+#menu {
+    width: 30%;
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+    /*height: 100%*/
+}
+
+#menu
+ul{
+    /*list-style: none;*/
+    /*display: block;*/
+
+}
+#menu
+li a {
+    font-family: helvetica;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#menu
+li a:hover {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+#productList {
+    width: 70%;
+
+    margin: 0;
+    padding: 0;
+    /*float: right;*/
+    /*display: block;*/
+}
+
+#productList ul{
+    /*display: block;*/
+}
+
+#productList li {
+    display: inline-table;
+    /*float: right;*/
+
+}
+
+.product:hover {
+    background-color: red;
+    color: black;
+    font-weight: bold;
+}
+
+/*.desc {
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}*/
+
+#hoverprice .price{
+    font-size:18px;
+    padding:10px 20px; 
+    text-align: center;
+    visibility: hidden;
+}
+
+#hoverprice:hover .price{
+    font-family: helvetica;
+    visibility: visible;
+    color: black;
+    font-weight: bold;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#hoverprice:hover .desc{
+    font-family: helvetica;
+    visibility: visible;
+    color: black;
+    font-weight: bold;
+
+}
+
+#footer {
+    font-family: helvetica;
+    font-weight: bold;
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}

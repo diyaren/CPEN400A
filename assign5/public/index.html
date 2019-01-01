@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>Group 7 Bookstore</title>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <script src="http://ece.ubc.ca/~kumseok/src/cpen400a/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="http://ece.ubc.ca/~kumseok/src/cpen400a/test-4.js" type="text/javascript"></script>
+
+
+		<script type="text/javascript" src="js/app.js"></script>
+
+    </head>
+    
+    <body >
+        <div id="header">
+   
+            <img id="logo" src="images/Bookstore.jpg" alt="IMAGE">
+            <img id= "banner" src="images/download.jpg" alt="IMAGE">
+            <button type="button" id="btn-show-cart" onclick="showCart()">
+  				<span class="text">Shopping Cart</span>
+			</button>
+            
+        </div>
+
+       
+       
+        <div id="content" >          
+       <!--    <div id="navigationMenu"> -->
+<!--           	<ul id="menu" >
+                <li class="menuItem"><a href="AllItems.asp">All Items</a></li>
+                <li class="menuItem"><a href="Books.asp">Books</a></li>
+                <li class="menuItem"><a href="Clothing.asp">Clothing</a></li>
+                <li class="menuItem"><a href="Tech.asp">Tech</a></li>
+                <li class="menuItem"><a href="Gifts.asp">Gifts</a></li>
+                <li class="menuItem"><a href="Stationary.asp">Stationary</a></li>
+                <li class="menuItem"><a href="Supplies.asp">Supplies</a></li>
+        	</ul> -->
+          <div id="menuView"></div>
+
+        	<div id="productView"> </div>
+          	<!-- <ul id="productList"> -->
+         
+	        	         
+
+     </div>
+
+     	<div id="modal">
+     		<button id="btn-hide-cart" onclick="hideCart()">close</button>
+     		<div id="modal-content"></div>
+<!--         <button id="btn-check-out" onclick="checkOutCart()">Check Out</button> -->
+     	</div>
+
+        <div id="footer">
+            <p>Address: 6200 University Blvd, Vancouver, BC V6T 1Z4
+            Hours: 9:30AM - 5:30PM
+            Phone: (604) 822-2665
+            </p>
+        </div>
+        
+
+    </body>
+</html>
